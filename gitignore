@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+venv/
+env/
+ENV/
+.venv/
+
+# ---- Environment variables / secrets ----
+# NEVER commit API keys, broker tokens, or credentials
+.env
+.env.*
+*.env
+secrets.json
+config_secret.py
+credentials.json
+*.key
+*.pem
+
+# ---- Trading bot specific ----
+logs/
+*.log
+data/
+*.csv
+*.db
+*.sqlite3
+backtest_results/
+*.pkl
+*.h5
+
+# ---- Jupyter notebooks ----
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ---- OS ----
+Thumbs.db
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
